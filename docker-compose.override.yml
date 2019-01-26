@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  www.rimysoft.com:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"

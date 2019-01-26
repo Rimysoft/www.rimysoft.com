@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  www.rimysoft.com:
+    image: ${DOCKER_REGISTRY-}wwwrimysoft
+    build:
+      context: .
+      dockerfile: Dockerfile
